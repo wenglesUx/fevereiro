@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Staatliches&display=swap');
+
+:root{
+    --main-color:#f27f0c;
+    --seconday-color:#f7ad19;
+    --tertiay-color:#053f5c;
+    --fourth-color:#429edb;
+
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'lato';
+
+}
+.container{
+
+    width:90vw;
+    margin: 0 auto;
+}
+.menu-area{
+    display:flex;
+    height:70px;
+    justify-content:space-around;
+    align-items:center;
+    text-transform: uppercase;
+    font-size:1.8rem;
+    background-color:var(--fourth-color);
+    color:white
+}
+ul{
+    display:flex;
+    gap:3rem;
+}
+
+#menu a{
+    text-decoration:none;
+    gap:3rem;
+    display:flex;
+    color:white
+}
+.banner{
+    display:flex;
+    width:100%;
+    height:calc(100vh - 70px);
+    background-image:url(/imagens/adorable-white-bulldog-puppy-portrait-social-banner.jpg);
+    background-position-y: 30%;
+    background-position-x:40%;
+    background-size:cover;
+    
+}
+#banner-desc, #info{
+    flex:1;
+    height:100%;
+    display:flex;
+    align-items:center;
+  justify-content: center;
+    flex-direction:column;
+    gap: 3rem;
+   position: relative;
+    z-index: 3;
+ 
+
+}
+
+#lorem{
+  max-width: 80%;
+}
+#info{
+    z-index: 3;
+    
+}
+#back-form{
+    position:absolute;
+    height:60%;
+    width:70%;
+    background-color:var(--seconday-color);
+    border-radius:30% 70% 60% 40% ;
+    transform: rotate(-30deg);
+    z-index: 1;
+    background-color: rgba(4, 0, 255, 0.4);
+   
+}
+#banner-desc h1{
+    font-size:3rem;
+    text-transform:uppercase;
+    color:var(--seconday-color);
+ 
+
+}
+#banner-desc p{
+    font-size:2rem;
+    color:white;
+ 
+    
+    
+}
+#banner-desc button{
+    font-size:2rem;
+    text-transform:uppercase;
+    padding: 10px;
+    border-radius:30px;
+    background-color:var(--seconday-color);
+    border:1px solid var(--primary-color);
+    cursor:pointer;
+    color:white;
+
+    
+}
+
+#banner-img{
+    width:50%;
+}
+
+
+.section-area{
+    height:100vh;
+    background-color:var(--tertiay-color)
+}
+
+.info-page{
+    height: 100vh;
+    
+}
+  
+/*Quem somos*/
+
+.info-page{
+    text-align: center;
+    margin-top: 4rem;
+position: relative;
+}
+.info-page h1{
+    font-size:4rem;
+    text-transform:uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+
+}
+.info-page p{
+    font-size:2.5rem;
+}
+.info-cards{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ margin-top:3rem;
+    gap:4rem;
+    z-index: 10;
+    flex-wrap: wrap;
+ 
+
+}
+#c-info h1{
+    font-size:2rem;
+    margin-top: 2rem;
+}
+#c-info p{
+    font-size:1.5rem;
+    margin-top: 2rem;
+}
+#c-info button{
+    font-size:1.3rem;
+    text-transform:uppercase;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 4rem;
+}
+#info-c{
+    border: 2px solid var(--tertiay-color);
+    height:600px;
+    width:500px;
+    padding:20px 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#info-c img{
+    height:130px;
+    border: 2px solid var(--main-color);
+    border-radius:50%;
+    
+}
+#form-span{
+    height:200px;
+    width:80%;
+    
+    margin-top: -20%;;
+    background-color: var(--fourth-color);
+    position: absolute;
+}
+.footer-section{
+    color:white;
+    background-color:var(--tertiay-color);
+    height:20vh;
+
+
+}
+#header-footer{
+    display:flex;
+    justify-content:space-between;
+    display:flex;
+    align-items:center;
+    padding: 20px 30px;
+
+}
+#logo-area{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+#social{
+    display:flex;
+    align-items:center;
+    gap:3rem;
+    text-transform:uppercase;
+
+}
+#logos{
+    font-size:3rem;
+}
+hr{
+    height: 2px;
+    border: none;
+    background-color: var(--fourth-color);
+}
+#section-footer{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    padding-left: 30px;
+
+ 
+}
+#credits{
+    padding-left: 30px;
+}
+#bottom-hr{
+    height: 10px;
+    background-color:var(--main-color);
+    width:80vw;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+   
